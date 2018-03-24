@@ -1,0 +1,22 @@
+/*
+  ==============
+
+    MAIN STYLE
+
+  ==============
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,400,600,700');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #fbc531;
+}
