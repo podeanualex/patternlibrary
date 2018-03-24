@@ -6,7 +6,7 @@
   ==============
 */
 
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:100,200,400,600,700');
 
 *{
@@ -19,4 +19,152 @@ body {
     min-height: 100%;
     font-family: 'Barlow Condensed', sans-serif;
     background: #fbc531;
+    font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+aside {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 370px;
+  padding: 5% 0;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  transition: all .2s ease-in-out;
+}
+
+aside:hover{
+}
+
+aside ul {
+  margin: 20px auto;
+}
+
+aside ul li {
+  text-align: center;
+  height: 35px;
+  padding: 10px 0;
+  box-shadow: inset 0 -1px 0 #f2f2f2;
+  transition: all .2s ease-in-out;
+}
+
+aside ul li:last-child{
+  box-shadow: inset 0 -1px 0 #f2f2f2;
+}
+
+aside ul li a {
+  text-decoration: none;
+  color: #888;
+  font-size: 1.5em;
+  display: block;
+  font-weight: 400;
+  transition: all .2s ease-in-out;
+}
+
+aside ul li:hover {
+    box-shadow: inset 0 -2px 0 #fbc531;
+    background: rgba(0,0,0,.01);
+}
+
+aside ul li:hover a {
+  color: #000;
+}
+
+.showcase {
+  width: 700px;
+  margin-left: 400px;
+}
+
+.component {
+  margin: 50px auto;
+  display: block;
+  padding-left: 50px;
+  border-left: 3px solid rgba(0,0,0,.3);
+}
+
+.component h3{
+  font-size: 2.4em;
+}
+
+.component p{
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  margin: 0 0 15px 0;
+  line-height: 1.5em;
+  color: #333333;
+}
+
+.preview{
+  margin: 10px 0;
+}
+
+.preview__output {
+  margin: 20px auto;
+  display: block;
+}
+
+.preview__tabs{
+  position: relative;
+  margin: 0 0 20px 0;
+}
+
+.preview__tabs button{
+  display: inline;
+  background: #fbc531;
+  padding: 6px 20px;
+  font-size: 1em;
+  text-decoration: none;
+  color: #000000;
+  border: 0;
+  font-weight: 100;
+  box-shadow: 1px 2px 3px rgba(0,0,0,.1);
+}
+
+.preview__tabs button:focus{
+  outline: 0;
+}
+
+.preview__tabs button:hover{
+  background: #DDD;
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,.2);
+  cursor: pointer;
+}
+
+.preview__tabs .left{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+}
+.preview__tabs .right{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -3px;
+}
+
+.preview__code{
+  padding: 30px;
+  box-shadow: 1px 3px 6px rgba(0,0,0,.08);
+  border-radius: 5px;
+  background: #fff;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    position: relative;
+    color: black;
+}
+
+.clearfix{
+  clear: both;
 }

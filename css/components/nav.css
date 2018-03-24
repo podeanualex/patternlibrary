@@ -1,7 +1,20 @@
 /*
   ==============
 
-    NAV 
+    NAV
 
   ==============
 */
+
+
+.nav-container{}
+.nav{}
+  
+.nav__link{
+  list-style: none;
+  display: inline-block;
+}
+
+.nav__link a{
+  text-decoration: none;
+}
