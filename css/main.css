@@ -81,7 +81,7 @@ aside ul li:hover a {
 }
 
 .component {
-  margin: 50px auto;
+  margin: 50px auto 250px auto;
   display: block;
   padding-left: 50px;
   padding-top: 40px;

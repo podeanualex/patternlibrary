@@ -16,6 +16,16 @@ button {
   font-size: 1.4em;
 }
 
+.left {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
 .btn-tab {
   width: 80px;
   height: 24px;

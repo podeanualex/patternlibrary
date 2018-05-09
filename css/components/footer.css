@@ -1,0 +1,89 @@
+/*
+  ==============
+
+    FOOTER
+
+  ==============
+*/
+
+footer {
+  width: 100%;
+  background: rgba(0, 0, 0, .1);
+  padding: 10px;
+}
+
+footer .footer__description {
+  width: 33%;
+  float: left;
+}
+
+footer .footer__description h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .footer__description p {
+  font-size: .75em;
+  width: 80%;
+}
+
+footer .footer__links {
+  width: 33%;
+  float: left;
+}
+
+footer .footer__links h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .footer__links ul li {
+  list-style: none;
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+
+footer .footer__links ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  font-size: .9em;
+  transition: all .2s ease-in-out;
+}
+
+footer .footer__links ul li a:hover {
+  color: #FFF;
+}
+
+footer .footer__buttons {
+  width: 33%;
+  float: left;
+}
+
+footer .footer__buttons h3 {
+  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+footer .footer__buttons a {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  text-align: center;
+  text-decoration: none;
+  background: #000;
+  line-height: 30px;
+  color: #FFFFFF;
+  border-radius: 3px;
+  transition: all .2s ease-in-out;
+}
+
+footer .footer__buttons a:hover {
+  background: #FFF;
+  color: #000;
+}
