@@ -84,6 +84,7 @@ aside ul li:hover a {
   margin: 50px auto;
   display: block;
   padding-left: 50px;
+  padding-top: 40px;
   border-left: 3px solid rgba(0, 0, 0, .3);
 }
 
