@@ -107,13 +107,14 @@ aside ul li:hover a {
 }
 
 .preview__output {
-  margin: 20px auto;
+  margin: 20px auto 50px auto;
   display: block;
 }
 
 .preview__tabs{
   position: relative;
-  margin: 0 0 20px 0;
+  margin: 10px 10px 0px 0;
+  float: right;
 }
 
 .preview__tabs button{
@@ -133,9 +134,10 @@ aside ul li:hover a {
 }
 
 .preview__tabs button:hover{
-  background: #DDD;
+  background: #333333;
   box-shadow: inset 2px 2px 5px rgba(0,0,0,.2);
   cursor: pointer;
+  color: #FFFFFF;
 }
 
 .preview__tabs .left{
@@ -151,7 +153,7 @@ aside ul li:hover a {
 
 .preview__code{
   padding: 30px;
-  box-shadow: 1px 3px 6px rgba(0,0,0,.08);
+  box-shadow: inset 1px 3px 15px rgba(0,0,0,.1);
   border-radius: 5px;
   background: #fff;
 }
