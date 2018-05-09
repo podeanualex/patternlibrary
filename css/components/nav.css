@@ -6,20 +6,29 @@
   ==============
 */
 
+.nav-container {
+  margin-top: 30px;
+}
 
-.nav-container{}
-.nav{}
+.nav-container h4 {
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+  color:
+}
 
-.nav__link{
+.nav {}
+
+.nav__link {
   list-style: none;
   display: inline-block;
   padding: 5px 10px;
   background: #FFFFFF;
   border-radius: 4px;
-
+  transition: all .2s ease-in-out;
 }
 
-.nav__link a{
+.nav__link a {
   text-decoration: none;
   font-size: 1.4em;
   color: #fbc531;
@@ -27,5 +36,32 @@
   padding: 6px;
 }
 
-.nav__link:hover a{
+.nav__link:hover a {
+  color: #FFFFFF;
+}
+
+.nav__link:hover {
+  background: transparent;
+}
+
+.nav-empty .nav__link {
+  background: transparent;
+  border-radius: 0;
+}
+
+.nav-empty .nav__link a {
+  text-decoration: none;
+  font-size: 1em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 6px;
+  transition: all .2s ease-in-out;
+}
+
+.nav-empty .nav__link:hover a {
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.nav-empty .nav__link:hover {
+  background: transparent;
 }
