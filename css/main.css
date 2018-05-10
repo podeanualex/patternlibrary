@@ -46,9 +46,8 @@ aside ul {
 }
 
 aside ul li {
-  text-align: center;
+  padding: 10px 50px;
   height: 35px;
-  padding: 10px 0;
   box-shadow: inset 0 -1px 0 #f2f2f2;
   transition: all .2s ease-in-out;
 }
@@ -81,7 +80,7 @@ aside ul li:hover a {
 }
 
 .component {
-  margin: 50px auto 250px auto;
+  margin: 50px auto 50px auto;
   display: block;
   padding-left: 50px;
   padding-top: 40px;
@@ -93,12 +92,13 @@ aside ul li:hover a {
 }
 
 .component p {
-  font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   display: block;
   margin: 0 0 15px 0;
   line-height: 1.5em;
   color: #333333;
+  font-size: .9em;
+  font-weight: 200 !important;
 }
 
 .preview {
@@ -157,7 +157,7 @@ aside ul li:hover a {
   background: #fff;
 }
 
-h1 {
+aside>h1 {
   font-size: 3em;
   text-align: center;
   font-weight: 700;
@@ -165,6 +165,26 @@ h1 {
   position: relative;
   color: black;
 }
+
+.highlighted {
+  color: #fbc531;
+}
+
+#start a {
+  width: 230px;
+  height: 40px;
+  border-radius: 5px;
+  background: black;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+
+#start a:hover {}
 
 .clearfix {
   clear: both;

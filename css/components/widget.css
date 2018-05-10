@@ -1,0 +1,52 @@
+/*
+  ==============
+
+    WIDGET
+
+  ==============
+*/
+
+.contact-widget {
+  margin-bottom: 50px;
+}
+
+.contact-widget h4 {
+  font-weight: 200;
+  margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+.contact-widget-filled {
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.contact-widget .card {
+  padding: 20px 0;
+}
+
+.contact-widget .card img {
+  float: left;
+  border-radius: 50%;
+  max-width: 134px;
+  max-height: 134px;
+  margin-right: 20px;
+}
+
+.contact-widget .card h2 {
+  padding-top: 15px;
+  font-size: 1.8em;
+  margin-bottom: 5px;
+}
+
+.contact-widget .card small {
+  display: block;
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.contact-widget .card small a {
+  color: black;
+}

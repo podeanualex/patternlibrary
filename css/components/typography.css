@@ -1,0 +1,45 @@
+/*
+  ==============
+
+    TYPOGRAPHY
+
+  ==============
+*/
+
+.headings-container {
+  text-align: left!important;
+}
+
+h1 {
+  text-align: left;
+  font-size: 4em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-weight: 200;
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-weight: 200;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+h6 {
+  font-weight: 200;
+  font-size: 1em;
+  margin-bottom: 20px;
+}
