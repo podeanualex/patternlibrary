@@ -1,7 +1,6 @@
 # Pattern Library
 
-![Alt](https://cdn-images-1.medium.com/max/1600/1*okO6V6HfPLvPIGE9bTodjQ.gif "Project gif")
-
+![Project cover](http://podeanu-alexandru.com/pattern-library/fig.gif)
 
 ## Components
 The final product will be represented by a HTML/CSS website which will provide 6 user interface components along with code snippets. The website foundation is represented by the following components which will be designed and developed:
